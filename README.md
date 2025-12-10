@@ -1,5 +1,6 @@
 # Nick Hauck
 (605)252-6096 | nickhauck1899@gmail.com | www.linkedin.com/in/nick-hauck-93140b165
+
 Student at WGU and Property Manager with Elation Properties currently expanding knowledge in data science and finance,
 with a focus on developing technical and analytical expertise.
 
