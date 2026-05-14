@@ -1,1 +1,38 @@
+/* Navigation backdrop blur fix for older browsers */
+nav {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
 
+/* Enhancing the "Jump" to sections so they don't get hidden under the fixed nav */
+section {
+    scroll-margin-top: 5rem;
+}
+
+/* Button animation for the Stessa Portal */
+.portal-btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.portal-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.portal-btn:hover::after {
+    height: 100%;
+}
+
+/* Form focus glow */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
